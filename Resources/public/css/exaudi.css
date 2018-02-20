@@ -1,0 +1,172 @@
+.backgroundContacts{    
+    background-image:url('../image/contact/trees.png') !important;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.consultantDesc{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.verdeExaudi{
+    background-color: #cad223 !important;
+    color: white;
+    font-size: 15px;
+}
+
+.grisExaudi{
+    background-color: white !important;
+    color: gray !important;
+    font-size: 15px;
+}
+
+.botonExaudi{    
+    border:2px solid white;
+    width:250px;
+    height:40px;
+    text-align: center;
+    vertical-align: central;
+    line-height: 35px;
+}
+
+.botonExaudiGris{    
+    border:2px solid gray;       
+}
+
+
+.anchoTotal{   
+    width: 100% !important;
+}
+
+.alturaSectionHome{    
+    height: 380px;    
+}
+
+.alturaSectionContact{    
+    height: auto;    
+}
+
+
+.centrarVerticalSectionHome{
+    padding-top: 150px !important;
+}
+
+.whiteLineFooter{
+    height: 5px !important;
+}
+.titleTeam{
+    font-size: 15px;
+    text-align: center;
+    font-weight:bold;
+
+}
+
+.iconosFooter{
+    font-size: 24px !important; 
+}
+
+.colorTextoBanner{
+    color: white !important;
+    margin-left: 80px;
+    display: none;
+}
+
+
+.colorTextoBannerMenu{
+    color: #666666;
+    margin-left: 200px;
+}
+
+
+.colorTextoBannerMenuGris{
+    color: #ffffff;
+    margin-left: 200px;
+}
+
+.colorIconoBannerMenu{
+    color: #666666;    
+}
+
+.colorIconoBannerMenuGris{
+    color: #ffffff;    
+}
+
+
+
+
+.bannerColor{
+    background-color: white !important;
+}
+
+
+.bannerColorGris{
+    background-color: #4272b0 !important;
+}
+
+
+.textoAzul{
+    color: #4272b0 !important;    
+}
+
+
+.azulOscuroEAM{
+    background-color: #2e458a !important;    
+
+}
+
+.grisEAM{
+    background-color: #e1e5e8 !important;    
+    color: black;
+}
+
+
+
+
+.justifyText{
+    text-align: justify !important; 
+}
+
+textarea.materialize-textarea{
+    height: 125px !important;
+}
+
+input{
+    height: 35px !important;
+    margin-bottom: 0px !important;    
+}
+
+.textContact{
+    font-size: 12px !important; 
+}
+
+nav{
+    -webkit-box-shadow: 0 0px 0px 0px !important;
+    -moz-box-shadow: 0 0px 0px 0px !important;
+    box-shadow: 0 0px 0px 0px !important;
+}
+
+
+
+.seleccionable{
+    cursor: pointer;   
+}
+
+.seleccionableFondoGris{
+    cursor: pointer;   
+}
+
+.seleccionableFondoGris:hover{
+    background-color: #cccccc;
+}
+
+
+.textoNegro{
+    color: black;
+}
+
+
+
+span>.text{
+    display: none !important;
+}
