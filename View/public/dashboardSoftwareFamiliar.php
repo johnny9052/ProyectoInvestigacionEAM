@@ -18,7 +18,7 @@
         </ul>
     </div>
     <div id="test1" class="col s12">
-        <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiOWUyYWU3MjItYzExMy00NWM3LWI2YTktMDk3YWJjOGU1MTE5IiwidCI6IjVjZDI2YTJmLTE1NTAtNDk3ZS1iZDYzLTcxNDFjNzQ2OTg1YiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNjExZjU0YmItOGIzZi00Njg2LTlkMjAtMGY2MjAxMDJiNjViIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
     
 </div>
