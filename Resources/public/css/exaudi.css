@@ -120,8 +120,15 @@
     color: black;
 }
 
+.fondoBlanco{
+    background-color: #FFFFFF !important;    
+    color: white;
+}
 
-
+.fondoReporte{
+    width: 100% !important; 
+    height: 800px
+}
 
 .justifyText{
     text-align: justify !important; 

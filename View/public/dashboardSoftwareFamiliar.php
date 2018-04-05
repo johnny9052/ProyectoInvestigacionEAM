@@ -17,8 +17,8 @@
             <li class="tab col s3"><a class="active" href="#test1">General</a></li>            
         </ul>
     </div>
-    <div id="test1" class="col s12">
-        <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNjExZjU0YmItOGIzZi00Njg2LTlkMjAtMGY2MjAxMDJiNjViIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    <div  id="test1" class="col s12 fondoBlanco" >
+        <iframe background-color="#FFFFFF" class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiNjExZjU0YmItOGIzZi00Njg2LTlkMjAtMGY2MjAxMDJiNjViIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
     
 </div>
