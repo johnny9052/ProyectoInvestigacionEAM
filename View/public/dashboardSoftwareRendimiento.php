@@ -1,9 +1,6 @@
 <script src="Resources/public/js/dashboard.js" type="text/javascript"></script>
 
 
-<script id="ApiTableu" type='text/javascript' src='https://public.tableausoftware.com/javascripts/api/viz_v1.js'></script>
-
-
 
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">        
