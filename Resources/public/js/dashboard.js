@@ -29,19 +29,22 @@ function actualizarDashboard(codeTab) {
 
     switch (codeTab) {
         case 2:
-            $("#pestania2").html('<iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiZDVmMGZlOTYtMmI5My00OWNmLTk5MDEtNmRlMGM1NjRkOWY5IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
+            $("#pestania2").html('<iframe class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiZDVmMGZlOTYtMmI5My00OWNmLTk5MDEtNmRlMGM1NjRkOWY5IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
             break;
         case 4:
-            $("#pestania4").html('<iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNzY4MGVhMDctNTFkNy00NzYzLTg4NDEtMTMyMWM3OWY4YzBjIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
+            $("#pestania4").html('<iframe class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiNzY4MGVhMDctNTFkNy00NzYzLTg4NDEtMTMyMWM3OWY4YzBjIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
             break;
 
         case 5:
-            $("#pestania5").html('<iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNmFlZjdiZWItMGNhYi00NGQ2LTk4OWEtOGYwNDNhNmZjYmVjIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
+            $("#pestania5").html('<iframe class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiNmFlZjdiZWItMGNhYi00NGQ2LTk4OWEtOGYwNDNhNmZjYmVjIiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
             break;
         case 6:
-            $("#pestania6").html('<iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNzgzOTg0MjItMmU1Mi00MDVhLTk2MzAtZWFmMTAyMjAyNGU3IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
+            $("#pestania6").html('<iframe class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiNzgzOTg0MjItMmU1Mi00MDVhLTk2MzAtZWFmMTAyMjAyNGU3IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>');
             break;
     }
+    
+    
+      setSizeReport();
 }
 
 function limpiarPestania() {
@@ -55,20 +58,21 @@ function limpiarPestania() {
 function setSizeReport() {
     tamano = tamVentana();
   if (tamano[0] < 990){
-      alert("Estoy en el if");
-      $('.fondoReporte').css("height","400px");
+      //alert("Estoy en el if");
+      $('.fondoReporte').css("height","350px");
   }
 }
 
 function tamVentana() {
   var tam = [0, 0];
-  if (typeof window.innerWidth != 'undefined')
+  if (typeof window.innerWidth !== 'undefined')
   {
     tam = [window.innerWidth,window.innerHeight];
   }
-  else if (typeof document.documentElement != 'undefined'
-      && typeof document.documentElement.clientWidth !=
-      'undefined' && document.documentElement.clientWidth != 0)
+      
+  else if (typeof document.documentElement !== 'undefined'
+      && typeof document.documentElement.clientWidth !==
+      'undefined' && document.documentElement.clientWidth !== 0)
   {
     tam = [
         document.documentElement.clientWidth,
@@ -81,7 +85,7 @@ function tamVentana() {
         document.getElementsByTagName('body')[0].clientHeight
     ];
   }
-  alert("El tamaño es " + tam);
+  //alert("El tamaño es " + tam);
   return tam;
 }
 

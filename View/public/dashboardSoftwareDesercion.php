@@ -18,7 +18,7 @@
         </ul>
     </div>
     <div id="test1" class="col s12">
-        <iframe width="100%" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiNTQwNGI3NmYtN2FiMC00OTJmLWExMjItMzU1Yzk0NDNmODE5IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe class="fondoReporte" src="https://app.powerbi.com/view?r=eyJrIjoiNTQwNGI3NmYtN2FiMC00OTJmLWExMjItMzU1Yzk0NDNmODE5IiwidCI6IjdmNmFjMTI0LTVhMTYtNDYwMC04ZjlmLThhNDI4YTcxZTI4OSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
     </div>
 
 </div>
