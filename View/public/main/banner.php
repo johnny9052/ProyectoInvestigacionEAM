@@ -7,10 +7,10 @@
             </a>
 
             <ul id="menuContenedor" class="bannerColor right hide-on-med-and-down textLight">
-                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=facIngenieria">Facultad de Ingenieria</a></li>
+                <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=facIngenieria">Facultad de Ingeniería</a></li>
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=facDiseno">Facultad de Diseño y Comunicación</a></li>
                 <li class="menuShowHide"><a class="colorTextoBanner" href="index.php?page=facAdministracion">Facultad de Ciencias Administrativas y Financieras</a></li>                                
-                <li><a id="txtMenu" class="colorTextoBannerMenu, sidenav-trigger">Menu</a></li> 
+                <li><a id="txtMenu" class="colorTextoBannerMenu, sidenav-trigger">Menú</a></li> 
                 <li><a data-target="mobile-demo" id="txtMenuIcono" class="colorIconoBannerMenu"><i id="btnMenu" class="material-icons">menu</i></a></li>
             </ul>
 
@@ -22,7 +22,7 @@
 
 
 <ul id="nav-mobile" class="side-nav">    
-    <li class=""><a class="" href="index.php?page=facIngenieria">F. de Ingenieria</a></li>
+    <li class=""><a class="" href="index.php?page=facIngenieria">F. de Ingeniería</a></li>
     <li class=""><a class="" href="index.php?page=facDiseno">F. de Diseño y Comunicación</a></li>
     <li class=""><a class="" href="index.php?page=facAdministracion">F. de Ciencias Administrativas...</a></li>                                
 </ul>

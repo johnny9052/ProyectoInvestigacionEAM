@@ -1,7 +1,7 @@
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
-        <h1 class="header center textoAzul">Seccion en construccion</h1>
+        <h1 class="header center textoAzul">Sección en construcción</h1>
         <br>
         <br>
         <br>

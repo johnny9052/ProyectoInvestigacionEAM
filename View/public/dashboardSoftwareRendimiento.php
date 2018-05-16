@@ -4,7 +4,7 @@
 
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">        
-        <h5 class="header center textoAzul">Seleccione el enfoque del analisis de rendimiento academico</h5>
+        <h5 class="header center textoAzul">Seleccione el enfoque del análisis de rendimiento académico</h5>
     </div>
 </div>
 
@@ -14,7 +14,7 @@
             <li class="tab col s3"><a id="pst2" href="#pestania2">Jornada - nivel - semestre</a></li>            
             <li class="tab col s3"><a id="pst4" href="#pestania4">Estrato social o discapacidad</a></li>
             <li class="tab col s3"><a id="pst5" href="#pestania5">nucleo familiar</a></li>
-            <li class="tab col s3"><a id="pst6" href="#pestania6">situacion laboral</a></li>
+            <li class="tab col s3"><a id="pst6" href="#pestania6">situación laboral</a></li>
         </ul>
     </div>
 

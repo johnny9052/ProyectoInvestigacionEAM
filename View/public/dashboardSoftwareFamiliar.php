@@ -7,7 +7,7 @@
 
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">        
-        <h5 class="header center textoAzul">Seleccione el enfoque del analisis de la informacion familiar</h5>
+        <h5 class="header center textoAzul">Seleccione el enfoque del análisis de la informacion familiar</h5>
     </div>
 </div>
 
