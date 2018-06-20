@@ -56,7 +56,7 @@
         <div class="row">
             <div class="col s12 m4">
                 <div class="icon-block">
-                    <h2 class="center light-blue-text"><i class="material-icons textoAzul">extensión</i></h2>
+                    <h2 class="center light-blue-text"><i class="material-icons textoAzul">extension</i></h2>
                     <h5 class="center">Descubre conocimiento</h5>
 
                     <p class="light justifyText">
